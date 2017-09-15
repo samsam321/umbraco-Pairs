@@ -1,0 +1,30 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "Threewood.Umbraco.Pairs",
+      "name": "Pairs",      
+      "editor": {
+        "view": "~/App_Plugins/Pairs/views/pairs.html",
+        "hideLabel": false,
+        "valueType": "JSON"
+      },  
+      "prevalues": {
+            "fields": [
+                {
+                    "label": "Key Value",
+                    "description": "Add and remove values for the list",
+                    "key": "items",
+                    "view": "~/App_Plugins/Pairs/views/pairs.prevalue.html"                    
+                }
+            ]
+      }    
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/Pairs/js/pairs.controller.js",
+    "~/App_Plugins/Pairs/js/pairs.prevalue.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/Pairs/css/pairs.css"
+  ]
+}

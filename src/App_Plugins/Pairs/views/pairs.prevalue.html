@@ -1,0 +1,18 @@
+﻿<div class="umb-editor" ng-controller="Threewood.Umbraco.Pairs.PrevalueController">
+    <div class="control-group">
+        <label for="newItemKey">Key</label>
+        <input name="newItemKey" type="text" ng-model="newItemKey" val-highlight="{{hasError}}" />
+        <label for="newItemValue">Value</label>
+        <input name="newItemValue" type="text" ng-model="newItemValue" val-highlight="{{hasError}}" />        
+        <button class="btn" ng-click="add($event)">Add</button>
+        <p class="red" ng-bind="info"></p>        
+    </div>
+    <div ui-sortable="sortableOptions">
+        <div class="control-group" ng-repeat="item in model.value">
+            <i class="icon icon-navigation handle"></i>
+            <input type="text" ng-model="item.key" val-server="item_{{$index}}" required />
+            <input type="text" ng-model="item.value" val-server="item_{{$index}}" required />
+            <button class="btn btn-danger" ng-click="remove(item, $event)">Remove</button>
+        </div>
+    </div>
+</div>
