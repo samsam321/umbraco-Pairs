@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/Pairs</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>CmsUser.png</guid>
+      <orgPath>/App_Plugins/Pairs/assets</orgPath>
+      <orgName>CmsUser.png</orgName>
+    </file>
+    <file>
+      <guid>cs_code.png</guid>
+      <orgPath>/App_Plugins/Pairs/assets</orgPath>
+      <orgName>cs_code.png</orgName>
+    </file>
+    <file>
+      <guid>logo.png</guid>
+      <orgPath>/App_Plugins/Pairs/assets</orgPath>
+      <orgName>logo.png</orgName>
+    </file>
+    <file>
+      <guid>propertyeditor.png</guid>
+      <orgPath>/App_Plugins/Pairs/assets</orgPath>
+      <orgName>propertyeditor.png</orgName>
+    </file>
+    <file>
+      <guid>pairs.css</guid>
+      <orgPath>/App_Plugins/Pairs/css</orgPath>
+      <orgName>pairs.css</orgName>
+    </file>
+    <file>
+      <guid>pairs.controller.js</guid>
+      <orgPath>/App_Plugins/Pairs/js</orgPath>
+      <orgName>pairs.controller.js</orgName>
+    </file>
+    <file>
+      <guid>pairs.prevalue.controller.js</guid>
+      <orgPath>/App_Plugins/Pairs/js</orgPath>
+      <orgName>pairs.prevalue.controller.js</orgName>
+    </file>
+    <file>
+      <guid>pairs.html</guid>
+      <orgPath>/App_Plugins/Pairs/views</orgPath>
+      <orgName>pairs.html</orgName>
+    </file>
+    <file>
+      <guid>pairs.prevalue.html</guid>
+      <orgPath>/App_Plugins/Pairs/views</orgPath>
+      <orgName>pairs.prevalue.html</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Pairs</name>
+      <version>0.1.0</version>
+      <iconUrl />
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://github.com/samsam321/umbraco-Pairs</url>
+      <requirements type="strict">
+        <major>7</major>
+        <minor>6</minor>
+        <patch>3</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>SamAY</name>
+      <website>https://www.linkedin.com/in/threewood/</website>
+    </author>
+    <readme><![CDATA[
+	<p>Thank you for installing Threewood Umbraco Pairs - the tool that makes you can create simple key value pairs property editor.</p>
+          
+                             
+]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>
